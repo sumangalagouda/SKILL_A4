@@ -53,7 +53,7 @@ function RecommendedEvents() {
     <div className="movies-section">
       <div className="movies-header">
         <h2>Recommended Events</h2>
-        <a href="#" className="see-all">See All &gt;</a>
+        <a href="https://example.com" className="see-all">See All &gt;</a>
       </div>
 
       <div className="movies-container">

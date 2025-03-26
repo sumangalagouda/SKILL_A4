@@ -54,7 +54,6 @@ const movies = [
 function RecommendedMovies() {
   const [showTrailer, setShowTrailer] = useState(false);
   const [currentTrailer, setCurrentTrailer] = useState("");
-
   const handleWatchTrailer = (trailerUrl) => {
     setCurrentTrailer(trailerUrl);
     setShowTrailer(true);
@@ -64,7 +63,7 @@ function RecommendedMovies() {
     <div className="movies-section">
       <div className="movies-header">
         <h2>Recommended Movies</h2>
-        <a href="#" className="see-all">See All &gt;</a>
+        <a href="https://example.com" className="see-all">See All &gt;</a>
       </div>
 
       <div className="movies-container">
