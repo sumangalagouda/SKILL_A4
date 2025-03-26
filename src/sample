@@ -1,0 +1,110 @@
+/* Movie Card Styling */
+.movie-card {
+  height: 500px;
+  width: 300px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Distributes content properly */
+}
+
+/* Movie Image */
+.movie-card img {
+  width: 100%;
+  height: 250px; /* Adjusted height for better fit */
+  border-radius: 10px;
+  object-fit: cover; /* Ensures proper cropping */
+}
+
+/* Movie Buttons */
+.movie-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.movie-buttons button {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Primary Button */
+.primary-btn {
+  background-color: #ff4b2b;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #e33e1c;
+}
+
+/* Secondary Button */
+.secondary-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.secondary-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Disabled Button */
+.disabled-btn {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+.logo{
+  width:100px;
+  height:50px;
+}
+/* Trailer Modal */
+.trailer-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Ensure it appears above everything */
+}
+
+/* Trailer Content Box */
+.trailer-content {
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  max-width: 600px; /* Responsive width */
+  width: 90%;
+}
+
+.trailer-content iframe {
+  width: 100%;
+  height: 315px;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(212, 212, 212);
+}

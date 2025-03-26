@@ -1,0 +1,280 @@
+*{
+  margin:0;
+  padding:0;
+}
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+h2, h3 {
+  color: #343a40;
+}
+
+.navbar {
+  background-color: #ffffff !important;
+  color:black;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: rgb(0, 0, 0) !important;
+}
+
+.nav-link {
+  color: rgb(0, 0, 0) !important;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.home-categories {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.category-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.category-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.events-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.event-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.event-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.sports-list, .offers-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.sports-card, .offer-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.sports-card img, .offer-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+/* Hero Section */
+.hero-section {
+  background: url('https://source.unsplash.com/1600x600/?cinema,concerts') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.hero-content .btn-danger {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+img{
+  height: 400px;
+  width:100vw;
+}
+.logo{
+  height:40px;
+  width:100px;
+}
+.d-flex{
+  width:40vw;
+}
+.login{
+  margin-left:30px;
+  white-space:nowrap;
+}
+
+#moviecard{
+  height:300px;
+  width:200px;
+}
+/* Movie Card Styling */
+.movie-card {
+  height: 500px;
+  width: 400px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Distributes content properly */
+}
+
+/* Movie Image */
+.movie-card img {
+  width: 100%;
+  height: 250px; /* Adjusted height for better fit */
+  border-radius: 10px;
+  object-fit: cover; /* Ensures proper cropping */
+}
+
+/* Movie Buttons */
+.movie-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.movie-buttons button {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Primary Button */
+.primary-btn {
+  background-color: #dc89be;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #e33e1c;
+}
+
+/* Secondary Button */
+.secondary-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.secondary-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Disabled Button */
+.disabled-btn {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+.logo{
+  width:100px;
+  height:50px;
+}
+/* Trailer Modal */
+.trailer-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Ensure it appears above everything */
+}
+
+/* Trailer Content Box */
+.trailer-content {
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  max-width: 600px; /* Responsive width */
+  width: 90%;
+}
+
+.trailer-content iframe {
+  width: 100%;
+  height: 315px;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(212, 212, 212);
+}
+.boxing{
+  height:500px;
+  width:300px;
+}
