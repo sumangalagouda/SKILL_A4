@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/SKILL_A4/static/css/main.a6a5ece6.css",
+    "main.js": "/SKILL_A4/static/js/main.2b03b33a.js",
+    "static/media/moviesection3.avif": "/SKILL_A4/static/media/moviesection3.37fa2a03746ec7e46032.avif",
+    "static/media/moviesection5.avif": "/SKILL_A4/static/media/moviesection5.38335de4d820c71d74e8.avif",
+    "static/media/movie2e.avif": "/SKILL_A4/static/media/movie2e.5f5d38c4ec75d28a3243.avif",
+    "static/media/eventsection3.avif": "/SKILL_A4/static/media/eventsection3.50e342f772f48a888aa8.avif",
+    "static/media/sports2.avif": "/SKILL_A4/static/media/sports2.abbccaa44799da8cb3f6.avif",
+    "static/media/moviesection4.avif": "/SKILL_A4/static/media/moviesection4.c0b972e330f1a50d39ae.avif",
+    "static/media/moviesection6.avif": "/SKILL_A4/static/media/moviesection6.69cc7b1275985cbcae91.avif",
+    "static/media/sports4.avif": "/SKILL_A4/static/media/sports4.b9ee988bd080f5d4049e.avif",
+    "static/media/sports3.avif": "/SKILL_A4/static/media/sports3.fd02f7f06d5abcc45c7f.avif",
+    "static/media/movie2b.avif": "/SKILL_A4/static/media/movie2b.d16162aee72bd6df416b.avif",
+    "static/media/movie2d.avif": "/SKILL_A4/static/media/movie2d.7726589813d1882f5dd1.avif",
+    "static/media/eventsection2.avif": "/SKILL_A4/static/media/eventsection2.1076c2e703df02a4512b.avif",
+    "static/media/book3.avif": "/SKILL_A4/static/media/book3.566e978b06fdcc7df304.avif",
+    "static/media/book.avif": "/SKILL_A4/static/media/book.5d5bc6d84e68dc9c263f.avif",
+    "static/media/sports1.avif": "/SKILL_A4/static/media/sports1.b12ae995346b4b1aed0a.avif",
+    "static/media/eventsection5.avif": "/SKILL_A4/static/media/eventsection5.8dfa8b949ce7cc756235.avif",
+    "static/media/movie2.avif": "/SKILL_A4/static/media/movie2.08e1f936c8dc7f72363c.avif",
+    "static/media/moviesection.avif": "/SKILL_A4/static/media/moviesection.5f5e20dcece379fffcf5.avif",
+    "static/media/eventsection4.avif": "/SKILL_A4/static/media/eventsection4.59c02841b2d5cc3a2841.avif",
+    "static/media/sports5.avif": "/SKILL_A4/static/media/sports5.dccada184e0581c9e443.avif",
+    "static/media/bookmyshow1.avif": "/SKILL_A4/static/media/bookmyshow1.04d693a5f3ff6428ef8a.avif",
+    "static/media/movie2c.avif": "/SKILL_A4/static/media/movie2c.5c5209078b862b8d25d6.avif",
+    "static/media/eventsection1.avif": "/SKILL_A4/static/media/eventsection1.1406e9322d0092c1b716.avif",
+    "static/media/evnt3.avif": "/SKILL_A4/static/media/evnt3.2c23609708affb8c2e5c.avif",
+    "static/media/evnt2.avif": "/SKILL_A4/static/media/evnt2.2e3ca1d41eb8e951b883.avif",
+    "static/media/evnt4.avif": "/SKILL_A4/static/media/evnt4.1ccfa21b060fc107c8e2.avif",
+    "static/media/evnt.avif": "/SKILL_A4/static/media/evnt.0f483aa31b57ecb271b2.avif",
+    "index.html": "/SKILL_A4/index.html",
+    "main.a6a5ece6.css.map": "/SKILL_A4/static/css/main.a6a5ece6.css.map",
+    "main.2b03b33a.js.map": "/SKILL_A4/static/js/main.2b03b33a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6a5ece6.css",
+    "static/js/main.2b03b33a.js"
+  ]
+}
